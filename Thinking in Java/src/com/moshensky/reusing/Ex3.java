@@ -10,6 +10,7 @@ class Drawing extends Art {
 
 public class Ex3 extends Drawing {
 	public static void main(String[] args) {
-		Ex3 x = new Ex3();
+		Ex3 x = new Ex3();	
+		System.out.println(x);
 	}
 }

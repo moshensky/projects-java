@@ -15,7 +15,7 @@ public class Exercise16 {
 		
 		Test[] t1 = new Test[5];
 		int i = 1;
-		for (Test t : t1) {
+		for (@SuppressWarnings("unused") Test t : t1) {
 			t = new Test("" + i++);
 		}
 	}

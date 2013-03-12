@@ -22,7 +22,11 @@ public class Parcel3 {
 	public static void main(String[] args) {
 		Parcel3 p = new Parcel3();
 		
+		@SuppressWarnings("unused")
 		Parcel3.Contents c = p.new Contents();
+		@SuppressWarnings("unused")
 		Parcel3.Destination d = p.new Destination("Tasmania");
+		
+		
 	}
 }

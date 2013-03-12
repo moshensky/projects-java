@@ -1,6 +1,5 @@
 package com.moshensky.innerclasses;
 
-import com.moshensky.innerclasses.E04_Sequence.SequenceSelector;
 
 public class E04_Sequence {
 	private Object[] items;
